@@ -35,7 +35,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.10"
         android:text="Set wallpaper"
-        android:background="@drawable/gradient_normal"
+
         tools:drawableStart="@android:drawable/btn_star" />
         </LinearLayout>
 

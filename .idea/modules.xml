@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WallpaperShots.iml" filepath="$PROJECT_DIR$/.idea/WallpaperShots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Downloads-WallpaperShots.iml" filepath="$PROJECT_DIR$/Downloads-WallpaperShots.iml" />
       <module fileurl="file://$PROJECT_DIR$/WallpaperShots.iml" filepath="$PROJECT_DIR$/WallpaperShots.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WallpaperShots.iml" filepath="$PROJECT_DIR$/.idea/WallpaperShots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/WallpaperShots-app.iml" filepath="$PROJECT_DIR$/app/WallpaperShots-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
