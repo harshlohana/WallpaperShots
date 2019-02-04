@@ -37,7 +37,7 @@ public class Fullimage2 extends AppCompatActivity {
     private PhotoView photoView;
     String Url;
     Bitmap bmap;
-    String Url1,Url2;
+    String Url1,Url2,Url3;
     Context context;
     String getUrl;
 
