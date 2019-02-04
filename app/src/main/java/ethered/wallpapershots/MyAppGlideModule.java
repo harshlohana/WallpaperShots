@@ -30,25 +30,3 @@ public class MyAppGlideModule extends AppGlideModule {
 
 }
 
-/*@GlideModule
-public class MyAppGlideModule extends AppGlideModule {
-
-    @Override
-    public void registerComponents(Context context, Glide glide, Registry registry) {
-        // Register FirebaseImageLoader to handle StorageReference
-        registry.append(StorageReference.class, InputStream.class,
-                new FirebaseImageLoader.Factory());
-    } @GlideOption
-    public static void miniThumb(RequestOptions options) {
-        options
-                .fitCenter()
-                .override(MINI_THUMB_SIZE);
-    }
-
-    @GlideOption
-    public static void miniThumb(RequestOptions options, int size) {
-        options
-                .fitCenter()
-                .override(size);
-    }
-}*/
