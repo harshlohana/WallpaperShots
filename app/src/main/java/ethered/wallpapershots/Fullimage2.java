@@ -76,40 +76,7 @@ public class Fullimage2 extends AppCompatActivity {
         startActivity(i);
 
 
-       // cifbitmap = createImageFromBitmap(bmap);
-    //    cropImageView.setImageBitmap(bmap);
-     /*   Intent i =new Intent(this,flowactivity.class);
-        i.putExtra("urlnextactivity", Url);
-       // i.putExtra("bitmap",bmap);
-        startActivity(i);
- */
     }
 
 
-    // subscribe to async event using cropImageView.setOnCropImageCompleteListener(listener)
-/*New Version Comment*//*CcropImageView.setOnCropImageCompleteListener(new CropImageView.OnCropImageCompleteListener() {
-
-          @Override
-        public void onCropImageComplete(CropImageView view,CropImageView.CropResult result) {
-
-        }
-    });
-    Bitmap cropped = cropImageView.getCroppedImage();
-
-
-    public String createImageFromBitmap(Bitmap bitmap) {
-        String fileName = "myImage";//no .png or .jpg needed
-        try {
-            ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
-            FileOutputStream fo = openFileOutput(fileName, Context.MODE_PRIVATE);
-            fo.write(bytes.toByteArray());
-            // remember close file output
-            fo.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-            fileName = null;
-        }
-        return fileName;
-    }*/
 }
