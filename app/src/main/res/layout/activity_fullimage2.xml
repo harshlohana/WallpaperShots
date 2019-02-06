@@ -36,7 +36,7 @@
         android:layout_weight="0.10"
         android:text="Set wallpaper"
 
-        tools:drawableStart="@android:drawable/btn_star" />
+        tools:drawableStart="@android:drawable/btn_radio" />
         </LinearLayout>
 
 
